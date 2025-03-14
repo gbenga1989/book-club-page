@@ -61,8 +61,9 @@ module.exports = {
 
     backgroundImage: () => ({
         vector: "url('../images/bg-pattern.svg')",
+        glow: "url('../images/glow-bg.svg')",
       }),
-
+    
    
   },
   plugins: [],
