@@ -18,7 +18,17 @@ module.exports = {
        lightsal1: '#FFE2D1', 
        lightsal50: '#FFF5EF', 
       },
+
+     
     }, 
+
+    
+      maxWidth: {
+        wrapper: '1620px',
+      },
+      width: {
+        wrapper: '90%',
+      },
 
       fontFamily:{
         sans: [
@@ -46,13 +56,15 @@ module.exports = {
        lightsal50: '#FFF5EF', 
       },
 
+      
     },
 
     backgroundImage: () => ({
         vector: "url('../images/bg-pattern.svg')",
       }),
 
-    
+   
   },
   plugins: [],
 }
+
