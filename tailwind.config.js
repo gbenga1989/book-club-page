@@ -13,6 +13,12 @@ module.exports = {
       },
     }, 
 
+      fontFamily:{
+        sans: [
+          'Martian Mono', 'sans-serif'
+        ],
+      },
+
    extend: {
       backgroundImage: {
         customgradient1: 'linear-gradient(107deg, #FF9A60 -11.37%, #062630 61.84%)',
