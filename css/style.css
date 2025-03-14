@@ -566,7 +566,11 @@ video {
   width: 100%;
 }
 
-.bg-gradient-custom {
+.bg-customgradient2 {
+  background-image: linear-gradient(90deg, #FFE2D1 0%, #FFF5EF 100%);
+}
+
+.bg-customgradient1 {
   background-image: linear-gradient(107deg, #FF9A60 -11.37%, #062630 61.84%);
 }
 

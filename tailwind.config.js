@@ -13,11 +13,14 @@ module.exports = {
       },
     }, 
 
-    extend: {
+   extend: {
       backgroundImage: {
-        'gradient-custom': "linear-gradient(107deg, #FF9A60 -11.37%, #062630 61.84%)",
+        customgradient1: 'linear-gradient(107deg, #FF9A60 -11.37%, #062630 61.84%)',
+        customgradient2: 'linear-gradient(90deg, #FFE2D1 0%, #FFF5EF 100%)',
       },
-    }, 
+    },
+
+    
   },
   plugins: [],
 }
