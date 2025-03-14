@@ -578,6 +578,10 @@ video {
   right: 0px;
 }
 
+.z-0 {
+  z-index: 0;
+}
+
 .mb-12 {
   margin-bottom: 3rem;
 }
@@ -590,8 +594,17 @@ video {
   margin-top: 1.5rem;
 }
 
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
+}
+
+.min-w-fit {
+  min-width: -moz-fit-content;
+  min-width: fit-content;
 }
 
 .flex-col {
@@ -645,6 +658,10 @@ video {
   font-family: Inter, sans-serif;
 }
 
+.font-sans {
+  font-family: Martian Mono, sans-serif;
+}
+
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -652,6 +669,11 @@ video {
 
 .text-xl {
   font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
@@ -670,6 +692,11 @@ video {
 
 .text-transparent {
   color: transparent;
+}
+
+.text-neu9 {
+  --tw-text-opacity: 1;
+  color: rgb(6 38 48 / var(--tw-text-opacity, 1));
 }
 
 /* body{
