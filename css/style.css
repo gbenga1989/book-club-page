@@ -554,8 +554,8 @@ video {
   display: none;
 }
 
-.mb-20 {
-  margin-bottom: 5rem;
+.mb-12 {
+  margin-bottom: 3rem;
 }
 
 .mt-8 {
@@ -578,6 +578,28 @@ video {
   overflow-x: hidden;
 }
 
+.bg-customgradient1 {
+  background-image: linear-gradient(107deg, #FF9A60 -11.37%, #062630 61.84%);
+}
+
+.bg-clip-text {
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-transparent {
+  color: transparent;
+}
+
 body{
   width: 90%;
   max-width: 1620px;
@@ -587,7 +609,30 @@ body{
 }
 
 @media (min-width: 768px) {
+  .md\:mb-20 {
+    margin-bottom: 5rem;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:items-center {
+    align-items: center;
+  }
+
+  .md\:space-x-16 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(4rem * var(--tw-space-x-reverse));
+    margin-left: calc(4rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .md\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 }
