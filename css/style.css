@@ -586,6 +586,10 @@ video {
   margin-top: 1.5rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .inline {
   display: inline;
 }
@@ -596,6 +600,10 @@ video {
 
 .h-20 {
   height: 5rem;
+}
+
+.h-10 {
+  height: 2.5rem;
 }
 
 .w-\[380px\] {
@@ -610,12 +618,28 @@ video {
   width: 400px;
 }
 
+.w-\[110px\] {
+  width: 110px;
+}
+
+.w-\[266px\] {
+  width: 266px;
+}
+
+.w-\[270px\] {
+  width: 270px;
+}
+
 .max-w-\[400px\] {
   max-width: 400px;
 }
 
 .flex-col {
   flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -632,6 +656,12 @@ video {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
   margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.75rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .overflow-x-hidden {
@@ -684,6 +714,10 @@ video {
   padding-top: 2rem;
 }
 
+.align-middle {
+  vertical-align: middle;
+}
+
 .font-sans {
   font-family: Martian Mono, sans-serif;
 }
@@ -705,6 +739,15 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-\[14px\] {
+  font-size: 14px;
 }
 
 .font-bold {
