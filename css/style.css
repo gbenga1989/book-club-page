@@ -562,14 +562,6 @@ video {
   position: relative;
 }
 
-.bottom-4 {
-  bottom: 1rem;
-}
-
-.right-4 {
-  right: 1rem;
-}
-
 .bottom-0 {
   bottom: 0px;
 }
@@ -602,9 +594,24 @@ video {
   display: flex;
 }
 
-.min-w-fit {
-  min-width: -moz-fit-content;
-  min-width: fit-content;
+.h-20 {
+  height: 5rem;
+}
+
+.w-\[380px\] {
+  width: 380px;
+}
+
+.w-\[390px\] {
+  width: 390px;
+}
+
+.w-\[400px\] {
+  width: 400px;
+}
+
+.max-w-\[400px\] {
+  max-width: 400px;
 }
 
 .flex-col {
@@ -615,16 +622,16 @@ video {
   justify-content: space-between;
 }
 
-.space-x-3 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(0.75rem * var(--tw-space-x-reverse));
-  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
 .space-x-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(1rem * var(--tw-space-x-reverse));
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .overflow-x-hidden {
@@ -633,10 +640,6 @@ video {
 
 .border-2 {
   border-width: 2px;
-}
-
-.border-r-2 {
-  border-right-width: 2px;
 }
 
 .border-neu9 {
@@ -657,21 +660,9 @@ video {
   background-image: url('../images/bg-pattern.svg');
 }
 
-.bg-glow {
-  background-image: url('../images/glow-bg.svg');
-}
-
 .bg-clip-text {
   -webkit-background-clip: text;
           background-clip: text;
-}
-
-.bg-no-repeat {
-  background-repeat: no-repeat;
-}
-
-.p-6 {
-  padding: 1.5rem;
 }
 
 .px-5 {
@@ -693,12 +684,12 @@ video {
   padding-top: 2rem;
 }
 
-.font-serif {
-  font-family: Inter, sans-serif;
-}
-
 .font-sans {
   font-family: Martian Mono, sans-serif;
+}
+
+.font-serif {
+  font-family: Inter, sans-serif;
 }
 
 .text-4xl {
@@ -706,13 +697,13 @@ video {
   line-height: 2.5rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
+.text-lg {
+  font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
+.text-xl {
+  font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
@@ -729,13 +720,13 @@ video {
   color: rgb(56 81 89 / var(--tw-text-opacity, 1));
 }
 
-.text-transparent {
-  color: transparent;
-}
-
 .text-neu9 {
   --tw-text-opacity: 1;
   color: rgb(6 38 48 / var(--tw-text-opacity, 1));
+}
+
+.text-transparent {
+  color: transparent;
 }
 
 /* body{
